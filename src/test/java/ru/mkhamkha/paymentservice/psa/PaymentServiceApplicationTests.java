@@ -1,4 +1,4 @@
-package ru.mkhamkha.payment_service;
+package ru.mkhamkha.paymentservice.psa;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
