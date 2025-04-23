@@ -2,7 +2,6 @@ package ru.mkhamkha.paymentservice.psa.util.enums.converter;
 
 import jakarta.persistence.AttributeConverter;
 import jakarta.persistence.Converter;
-import ru.mkhamkha.paymentservice.psa.util.enums.PaymentTransactionStatus;
 import ru.mkhamkha.paymentservice.psa.util.enums.RefundStatus;
 
 @Converter(autoApply = true)
