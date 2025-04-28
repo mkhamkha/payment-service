@@ -1,11 +1,11 @@
 package ru.mkhamkha.paymentservice.psa.model.dto;
 
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
 
 @Data
@@ -21,6 +21,4 @@ public class CancelPaymentTransactionRequest {
     private BigDecimal refundedAmount;
 
     private String reason;
-
-
 }
